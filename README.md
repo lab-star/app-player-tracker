@@ -1,2 +1,3 @@
 # app-timestamp
-App to manually timestamp events
+App to keep track of on-field players.
+For HOF project.
