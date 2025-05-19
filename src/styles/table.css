@@ -1,0 +1,35 @@
+.table-container {
+    max-height: 300px; /* Set your desired fixed height */
+    overflow-y: auto;   /* Enable vertical scrolling when content overflows */
+    /* border: 1px solid #ccc; Optional: add a border around the container */
+    /* Add padding if needed, but keep it simple for scrolling */
+}
+
+/* Style the table itself */
+.table-container table {
+    width: 100%; /* Ensure the table fills the container width */
+    border-collapse: collapse; /* Remove space between borders */
+}
+
+/* Style table cells */
+.table-container th,
+.table-container td {
+    padding: 8px; /* Adjust padding as needed */
+    /* border: 1px solid #ddd; Add cell borders */
+    text-align: left; /* Align text */
+}
+
+/* Style the table header cells to be sticky */
+.table-container th {
+    background-color: #454d55; /*Header background color*/
+    position: sticky; /* Makes the header stick */
+    top: 0;           /* Sticks to the top of the scrollable container */
+    z-index: 1;       /* Ensure the header is above scrolling content */
+    /* You might need to set explicit widths here if columns aren't aligning perfectly */
+    /* Example: width: 100px; */
+}
+
+/* Optional: Add zebra striping to rows */
+.table-container tbody tr:nth-child(even) {
+    background-color: #2b2f33;
+}

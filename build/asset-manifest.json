@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/app-player-tracker/static/css/main.56a256ba.css",
+    "main.js": "/app-player-tracker/static/js/main.665e30ab.js",
+    "static/js/453.fa7ca686.chunk.js": "/app-player-tracker/static/js/453.fa7ca686.chunk.js",
+    "index.html": "/app-player-tracker/index.html",
+    "main.56a256ba.css.map": "/app-player-tracker/static/css/main.56a256ba.css.map",
+    "main.665e30ab.js.map": "/app-player-tracker/static/js/main.665e30ab.js.map",
+    "453.fa7ca686.chunk.js.map": "/app-player-tracker/static/js/453.fa7ca686.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56a256ba.css",
+    "static/js/main.665e30ab.js"
+  ]
+}
